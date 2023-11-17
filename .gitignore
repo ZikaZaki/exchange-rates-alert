@@ -1,0 +1,25 @@
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore local configs 
+config.local.py
+
+# Data files
+*.csv
+
+# Built artifacts
+build/
+dist/
+
+# Logs
+logs/
+
+# Temp files
+*.tmp
